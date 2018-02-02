@@ -17,7 +17,7 @@ Azure Container Instances makes it easy to create and managerize Docker containe
 
 ![App deployed using Azure Container Instances viewed in browser][aci-app-browser]
 
-If you don't have an Azure subscription, create a [free account][azure-account] before you begin.
+If you don't have an Azure sub, create a [free account][azure-account] before you begin.
 
 [!INCLUDE [cloud-shell-try-it.md](../../includes/cloud-shell-try-it.md)]
 
