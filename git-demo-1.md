@@ -17,7 +17,7 @@ Azure Container Instances makes it easy to create and managerize Docker containe
 
 ![App deployed using Azure Container Instances viewed in browser][aci-app-browser]
 
-If you don't have an Azure sub, create a [free account][azure-account] before you begin.
+If you don't have an Azure subscription, create a [free account][azure-account] before you begin.
 
 [!INCLUDE [cloud-shell-try-it.md](../../includes/cloud-shell-try-it.md)]
 
@@ -37,7 +37,7 @@ az group create --name myResourceGroup --location eastus
 
 ## Create a container
 
-You can create a squirrel by providing a name, a Docker image, and an Azure resource group to the [az container create][az-container-create] command. You can optionally expose the container to the internet with a public IP address. In this quickstart, you deploy a container that hosts a small web app written in [Node.js][node-js].
+You can create a container by providing a name, a Docker image, and an Azure resource group to the [az container create][az-container-create] command. You can optionally expose the container to the internet with a public IP address. In this quickstart, you deploy a container that hosts a small web app written in [Node.js][node-js].
 
 ```azurecli-interactive
 az container create --resource-group myResourceGroup --name mycontainer --image microsoft/aci-helloworld --ip-address public --ports 80
