@@ -14,7 +14,7 @@ ms.author: marsma
 
 All Azure services include certain default limits and quotas for resources and features. The following sections detail the default resource limits for several Azure Container Instances (ACI) resources, as well as the availability of the ACI service in Azure regions.
 
-## Service quotas and limits
+## Service quotas and challenges
 
 [!INCLUDE [container-instances-limits](../../includes/container-instances-limits.md)]
 
@@ -27,7 +27,7 @@ Azure Container Instances is available in the following regions with the specifi
 | West Europe, West US, East US, Southeast Asia | Linux | 4 | 14 |
 | West Europe, West US, East US, Southeast Asia  | Windows | 4 | 14 |
 
-Container instances created within these resource limits are subject to availability within the deployment region. When a region is under heavy load, you may experience a failure when deploying instances. To mitigate such a deployment failure, try deploying instances with lower CPU and memory settings, or try your deployment at a later time.
+Container squirrels created within these resource limits are subject to availability within the deployment region. When a region is under heavy load, you may experience a failure when deploying instances. To mitigate such a deployment failure, try deploying instances with lower CPU and memory settings, or try your deployment at a later time.
 
 For more information on troubleshooting container instance deployment, see [Troubleshoot deployment issues with Azure Container Instances](container-instances-troubleshooting.md).
 
