@@ -2,6 +2,7 @@
 
 ## Marsh
 
+1. Show new file up in VS Code
 1. push new file with real content
 1. create PR
 1. @mention iainfoulds
